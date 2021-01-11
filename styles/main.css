@@ -53,6 +53,7 @@ header {
   display: flex;
   flex-direction: column;
   border: 3px solid;
+  /* border: 3px red solid; */
   padding: 25px;
 }
 
@@ -65,7 +66,7 @@ header {
 }
 
 .containerMiddle {
-  border: 3px black solid;
+  /* border: 3px black solid; */
   padding: 25px;
   margin: 10px;
 }
@@ -73,9 +74,31 @@ header {
 .containerBottom {
   display: flex;
 
-  border: 3px black solid;
+  /* border: 3px black solid; */
   padding: 25px;
   margin: 10px;
+}
+
+/* each individual fish */
+.containerBottom__card {
+  padding: 10px;
+  margin: 5px;
+  background-color: lightblue;
+  /* border: black 1px solid; */
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  /* resize: both;
+  overflow: auto; */
+
+  /* background: repeating-linear-gradient(
+    90deg,
+    lightblue,
+    lightblue 10px,
+    white 10px,
+    white 20px
+  ); */
 }
 
 footer {
