@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+@import "./kw.css";
 
 /* * {
   border: 1px red solid;
@@ -30,20 +31,28 @@ h6 {
 header {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(124, 226, 146);
 }
 
 .header__nav {
-  align-self: flex-end;
+  /* justify-content: space-between; */
+
+  /* justify-content: space-around; */
+  padding: 15px;
 }
 
 .header__navItems {
   display: flex;
-  justify-content: space-between;
+
+  /* background-color: pink; */
 }
 
 .contentContainer {
   display: flex;
   flex-direction: column;
+  border: 3px solid;
   /* border: 3px red solid; */
   padding: 25px;
 }
@@ -95,5 +104,6 @@ header {
 footer {
   display: flex;
   justify-content: space-between;
+  justify-content: center;
   padding: 10px;
 }
