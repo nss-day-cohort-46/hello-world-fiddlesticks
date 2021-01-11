@@ -1,0 +1,43 @@
+@import 'main.css';
+
+/*
+
+red
+HEX #cf0921
+RGB (207,9,33)
+CMYK (0,96,84,19)
+
+blue
+HEX #002780
+RGB (0,39,128)
+CMYK (100,70,0,50)
+
+gold
+HEX #ffd93b
+RGB (255,217,59)
+CMYK (0,15,77,0)
+
+black
+HEX #000000
+RGB (0,0,0)
+CMYK (0,0,0,100)
+*/
+
+:root {
+  --primary-color: #FFD93B;
+  --secondary-colorA: #CF0921;
+  --secondary-colorB: #002780;
+  --triciary-color: #000;
+}
+
+img {
+  max-width: 10%;
+}
+
+.containerBottom {
+  background: var(--primary-color);
+}
+
+.active {
+  background: blue;
+}
