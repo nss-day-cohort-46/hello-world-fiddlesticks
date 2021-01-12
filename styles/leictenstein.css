@@ -29,18 +29,11 @@ CMYK (0,0,0,100)
 
 :root {
   --primary-color: rgb(255,217,59,.50);
-  --secondary-colorA: #CF0921;
-  --secondary-colorB: #002780;
+  --secondary-colorA:   rgb(207,9,33,.4);
+  --secondary-colorB: rgb(0,39,128,.4);
   --triciary-color: #000;
 }
 
-/*
-
-<header>
-            <div class=header__logo>
-                <img src="images/FSLogo.png" alt="Fiddlesticks Logo">
-            </div>
-*/
 header {
   background: var(--primary-color);
 }
@@ -68,9 +61,26 @@ header nav {
   text-decoration: none;
 }
 
+.containerTop__highlight {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flag__logo {
+  flex-shrink: 3;
+  flex-grow: .5;
+  flex-basis: 20%;
+}
+
+.travel_tips {
+  flex-shrink: .3;
+  flex-grow: 3;
+  flex-basis: 50%;
+  padding: 1em;
+}
 /* img */
 .flag__logo img{
-  max-width: 10%;
+  max-width: 100%;
 }
 
 .containerBottom {
@@ -81,9 +91,9 @@ header nav {
   background: var(--secondary-colorB);
 }
 
-/*
-  NEW
-*/
+.containerTop {
+  display: flex;
+}
 
 .header__nav:hover  {
   background: green;
@@ -180,7 +190,6 @@ header nav {
   width: 100%;
   padding: .2em;
   margin: 5px auto;
-  /* background-color: rgb(124, 226, 146, .25); */
   background: var(--secondary-colorB);
   color: var(--secondary-colorA);
 }
