@@ -1,0 +1,211 @@
+@import 'main.css';
+
+/*
+
+red
+HEX #cf0921
+RGB (207,9,33)
+CMYK (0,96,84,19)
+
+blue
+HEX #002780
+RGB (0,39,128)
+CMYK (100,70,0,50)
+
+gold
+HEX #ffd93b
+RGB (255,217,59)
+CMYK (0,15,77,0)
+
+black
+HEX #000000
+RGB (0,0,0)
+CMYK (0,0,0,100)
+*/
+
+/* * {
+  border: 1px solid red;
+} */
+
+:root {
+  --primary-color: rgb(255,217,59,.50);
+  --secondary-colorA:   rgb(207,9,33,.4);
+  --secondary-colorB: rgb(0,39,128,.4);
+  --triciary-color: #000;
+}
+
+header {
+  background: var(--primary-color);
+}
+
+.header__logo img {
+  max-height: 100%;
+}
+
+header nav {
+  background: blue;
+}
+.header__navItems {
+  text-decoration: none; 
+  background: pink;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header__nav {
+  background: var(--secondary-colorA);
+}
+
+.header__nav a {
+  text-decoration: none;
+}
+
+.containerTop__highlight {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flag__logo {
+  flex-shrink: 3;
+  flex-grow: .5;
+  flex-basis: 20%;
+}
+
+.travel_tips {
+  flex-shrink: .3;
+  flex-grow: 3;
+  flex-basis: 50%;
+  padding: 1em;
+}
+/* img */
+.flag__logo img{
+  max-width: 100%;
+}
+
+.containerBottom {
+  background: var(--primary-color);
+}
+
+.active {
+  background: var(--secondary-colorB);
+}
+
+.containerTop {
+  display: flex;
+}
+
+.header__nav:hover  {
+  background: green;
+}
+
+.active {
+  background: teal;
+}
+
+.country_nav {
+  /* background: red; */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+
+.countryList {
+  padding: 10px;
+  margin: 10px auto;
+  /* background-color: lightblue; */
+  /* background-color: rgb(124, 226, 146, .25); */
+  background-color: var(--primary-color);
+
+  /* border: black 1px solid; */
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+
+  list-style-type: none;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.countryList__card {
+  /* background: blue; */
+  /* min-width: 20%;
+  max-width: 50%;
+  height: 10em;
+  max-height: 20em; */
+  text-align: center;
+  padding: 1em;
+  border: .25em solid gray;
+  border-radius: 15px;
+
+  height: 20em;
+  width: 20em;
+  margin: 2em;
+}
+
+.countryList__card:hover {
+  position: relative;
+  top: -10px;
+  left: -10px;
+  opacity: 80%;
+  border: .3em solid black;
+}
+
+.countryList__card h3 {
+  text-decoration: none;
+  color: inherit;
+  background-color: rgb(255,217,59, .40);
+  font-size: 2em;
+  font-weight: bold;
+}
+
+
+.ulCard {
+  padding: 10px;
+  margin: 10px auto;
+
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+
+  list-style-type: none;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ulCard_li {
+  width: 100%;
+  padding: .2em;
+  margin: 5px auto;
+  background-color: rgb(255,217,59, .40);
+}
+
+.ulCard_li:hover {
+  width: 100%;
+  padding: .2em;
+  margin: 5px auto;
+  background: var(--secondary-colorB);
+  color: var(--secondary-colorA);
+}
+
+
+.countryList__card:first-child {
+  background-image: url("https://source.unsplash.com/random/?people");
+  background-size: cover;
+}
+
+.countryList__card:nth-child(2) {
+  background-image: url("https://source.unsplash.com/featured/?landmarks");
+  background-size: cover;
+}
+
+.countryList__card:last-child {
+  background-image: url("https://source.unsplash.com/random/?stuff");
+  background-size: cover;
+} 
