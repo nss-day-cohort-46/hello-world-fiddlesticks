@@ -95,8 +95,8 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* background-color: rgb(124, 226, 146); */
 }
+
 .header__navItems {
   display: flex;
 }
@@ -110,4 +110,12 @@ footer {
   justify-content: space-between;
   justify-content: center;
   padding: 10px;
+}
+
+.active {
+  background: lightblue;
+}
+
+.header__nav:hover {
+  background: lightgray;
 }
