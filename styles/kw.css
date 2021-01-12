@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+.containerTop {
+  text-align: center;
+  display: flex;
+  background-color: tan;
+}
+.containerBottom {
+    justify-content: space-between;
+    border: solid;
+}
+
+article {
+  text-align: center;
+  background- 
+}
+footer {
+    background-color: red;
+}
+=======
+.containerMain {
+  background-color: magenta;
+}
+>>>>>>> main

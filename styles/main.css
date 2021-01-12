@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
-@import "./kw.css";
+@import "./KW.css";
 
 /* * {
   border: 1px red solid;
@@ -33,7 +33,7 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(124, 226, 146);
+  background-color: rgb(4, 190, 44);
 }
 
 .header__nav {
