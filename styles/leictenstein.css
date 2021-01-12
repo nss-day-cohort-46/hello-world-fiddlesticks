@@ -23,14 +23,53 @@ RGB (0,0,0)
 CMYK (0,0,0,100)
 */
 
+/* * {
+  border: 1px solid red;
+} */
+
 :root {
-  --primary-color: #FFD93B;
+  --primary-color: rgb(255,217,59,.50);
   --secondary-colorA: #CF0921;
   --secondary-colorB: #002780;
   --triciary-color: #000;
 }
 
-img {
+/*
+
+<header>
+            <div class=header__logo>
+                <img src="images/FSLogo.png" alt="Fiddlesticks Logo">
+            </div>
+*/
+header {
+  background: var(--primary-color);
+}
+
+.header__logo img {
+  max-height: 100%;
+}
+
+header nav {
+  background: blue;
+}
+.header__navItems {
+  text-decoration: none; 
+  background: pink;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header__nav {
+  background: var(--secondary-colorA);
+}
+
+.header__nav a {
+  text-decoration: none;
+}
+
+/* img */
+.flag__logo img{
   max-width: 10%;
 }
 
@@ -39,5 +78,125 @@ img {
 }
 
 .active {
-  background: blue;
+  background: var(--secondary-colorB);
 }
+
+/*
+  NEW
+*/
+
+.header__nav:hover  {
+  background: green;
+}
+
+.active {
+  background: teal;
+}
+
+.country_nav {
+  /* background: red; */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+
+.countryList {
+  padding: 10px;
+  margin: 10px auto;
+  /* background-color: lightblue; */
+  /* background-color: rgb(124, 226, 146, .25); */
+  background-color: var(--primary-color);
+
+  /* border: black 1px solid; */
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+
+  list-style-type: none;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.countryList__card {
+  /* background: blue; */
+  /* min-width: 20%;
+  max-width: 50%;
+  height: 10em;
+  max-height: 20em; */
+  text-align: center;
+  padding: 1em;
+  border: .25em solid gray;
+  border-radius: 15px;
+
+  height: 20em;
+  width: 20em;
+  margin: 2em;
+}
+
+.countryList__card:hover {
+  position: relative;
+  top: -10px;
+  left: -10px;
+  opacity: 80%;
+  border: .3em solid black;
+}
+
+.countryList__card h3 {
+  text-decoration: none;
+  color: inherit;
+  background-color: rgb(255,217,59, .40);
+  font-size: 2em;
+  font-weight: bold;
+}
+
+
+.ulCard {
+  padding: 10px;
+  margin: 10px auto;
+
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+
+  list-style-type: none;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ulCard_li {
+  width: 100%;
+  padding: .2em;
+  margin: 5px auto;
+  background-color: rgb(255,217,59, .40);
+}
+
+.ulCard_li:hover {
+  width: 100%;
+  padding: .2em;
+  margin: 5px auto;
+  /* background-color: rgb(124, 226, 146, .25); */
+  background: var(--secondary-colorB);
+  color: var(--secondary-colorA);
+}
+
+
+.countryList__card:first-child {
+  background-image: url("https://source.unsplash.com/random/?people");
+  background-size: cover;
+}
+
+.countryList__card:nth-child(2) {
+  background-image: url("https://source.unsplash.com/featured/?landmarks");
+  background-size: cover;
+}
+
+.countryList__card:last-child {
+  background-image: url("https://source.unsplash.com/random/?stuff");
+  background-size: cover;
+} 
