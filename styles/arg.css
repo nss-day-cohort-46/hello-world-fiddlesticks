@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 
-* {
+/* * {
   border: 1px red solid;
-}
+} */
 
 /*Typography
 --------------------------------------------------------------*/
@@ -25,22 +25,6 @@ h5,
 h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
-}
-
-/* remove the next three classes */
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  /* background-color: rgb(124, 226, 146); */
-}
-.header__navItems {
-  display: flex;
-}
-.header__nav {
-  justify-content: space-between;
-  padding: 15px;
 }
 
 .contentContainer {
@@ -100,4 +84,27 @@ header {
 
 .flagImg {
   max-width: 100%;
+}
+
+/* remove */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: rgb(124, 226, 146); */
+}
+.header__navItems {
+  display: flex;
+}
+.header__nav {
+  justify-content: space-between;
+  padding: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  padding: 10px;
 }
