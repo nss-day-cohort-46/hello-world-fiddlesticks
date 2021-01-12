@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+@import "./kw.css";
 
-/* * {
+* {
   border: 1px red solid;
-} */
+}
 
 /*Typography
 --------------------------------------------------------------*/
@@ -27,20 +28,31 @@ h6 {
   letter-spacing: 2px;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  /* background-color: rgb(124, 226, 146); */
+}
+
+.header__navItems {
+  display: flex;
+}
+
+.header__nav {
+  justify-content: space-between;
+  padding: 15px;
+}
+
 .contentContainer {
   display: flex;
   flex-direction: column;
   /* border: 3px solid black; */
   /* border: 3px red solid; */
-  /* padding: 25px; */
+  padding: 25px;
   /* align-self: center; */
-  background-image: url("../images/argSoccerStadium50Opacity.jpg");
-  background-repeat: no-repeat;
-  background-position-x: center;
 }
-
-/* .contentContainerOp {
-} */
 
 .containerTopArg {
   /* border: 3px black solid; */
@@ -48,16 +60,9 @@ h6 {
   margin: 10px;
   display: flex;
   flex-direction: column;
-  align-self: center;
-  color: white;
-  font-size: 20px;
-  font-style: oblique;
+  align-content: center;
 }
 
-.containerTop__Text {
-  /* text-shadow: black; */
-  text-shadow: gray 0 -2px;
-}
 .containerBottomArg {
   display: flex;
   /* border: 3px black solid; */
@@ -77,32 +82,16 @@ h6 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px;
-}
+  /* resize: both;
+  overflow: auto; */
 
-.flagArg {
-  max-width: 300px;
-  /* background-color: black; */
-  align-self: center;
-}
-
-.flagImg {
-  max-width: 100%;
-}
-
-/* remove */
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  /* background-color: rgb(124, 226, 146); */
-}
-.header__navItems {
-  display: flex;
-}
-.header__nav {
-  justify-content: space-between;
-  padding: 15px;
+  /* background: repeating-linear-gradient(
+    90deg,
+    lightblue,
+    lightblue 10px,
+    white 10px,
+    white 20px
+  ); */
 }
 
 footer {
