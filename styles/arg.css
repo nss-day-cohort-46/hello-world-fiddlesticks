@@ -34,7 +34,13 @@ h6 {
   /* border: 3px red solid; */
   /* padding: 25px; */
   /* align-self: center; */
+  background-image: url("../images/argSoccerStadium50Opacity.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
+
+/* .contentContainerOp {
+} */
 
 .containerTopArg {
   /* border: 3px black solid; */
@@ -43,9 +49,15 @@ h6 {
   display: flex;
   flex-direction: column;
   align-self: center;
-  background-image: url("./images/argSoccerStadium.jpg");
+  color: white;
+  font-size: 20px;
+  font-style: oblique;
 }
 
+.containerTop__Text {
+  /* text-shadow: black; */
+  text-shadow: gray 0 -2px;
+}
 .containerBottomArg {
   display: flex;
   /* border: 3px black solid; */
@@ -65,16 +77,6 @@ h6 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px;
-  /* resize: both;
-  overflow: auto; */
-
-  /* background: repeating-linear-gradient(
-    90deg,
-    lightblue,
-    lightblue 10px,
-    white 10px,
-    white 20px
-  ); */
 }
 
 .flagArg {
