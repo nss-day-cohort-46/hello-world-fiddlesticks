@@ -1,8 +1,10 @@
-import { City } from "./City.js";
+import { City } from "./scripts/cities/City.js";
 import { largeCity } from "./CityDataProvider.js";
 
-// const buildCityListHTML = ()
+const buildCityListHTML = () => {};
 
-// export const CityList = () => {
-//     const contentElement = document.querySelector(".cityCard");
-// }
+export const CityList = () => {
+  const contentElement = document.querySelector(".cityCard");
+};
+
+City();
