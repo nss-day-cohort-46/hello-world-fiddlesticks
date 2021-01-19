@@ -2,7 +2,7 @@ import { LandmarksCollection } from "./LandmarksDataProvider.js"
 import { useLandmark } from "./Landmarks.js"
 
 export const LandmarkList = () => {
-    const contentElement = document.querySelector(".countryList__card");
+    const contentElement = document.querySelector(".landmarks");
     const landmarks = LandmarksCollection()
 
     let landmarkHTMLRepresentation = "";
@@ -19,10 +19,3 @@ export const LandmarkList = () => {
     
     `
 };
-
-/* <h3>Landmarks To See</h3>
-    <ul class="ulCard">
-        <li class="ulCard_li">Landmark 1</li>
-        <li class="ulCard_li">Landmark 2</li>
-        <li class="ulCard_li">Landmark 3</li>
-</ul> */
