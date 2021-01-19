@@ -1,3 +1,5 @@
-import { City } from "./City.js";
+// import { City } from "./City.js";
 
-City();
+// export const CityList = () => {
+//     const contentElement = document.querySelector(".cityCard");
+// }
