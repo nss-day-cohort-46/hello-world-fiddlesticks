@@ -11,6 +11,13 @@ export const CityList = () => {
   }
 
   // Putting onto the dom
+  contentElement.innerHTML += `
+
+      <div class="contentContainer__containerBottom-cityCard">
+      ${cityyyHTMLRepresentations}
+
+      </div>
+  `;
 };
 
-City();
+// City();
