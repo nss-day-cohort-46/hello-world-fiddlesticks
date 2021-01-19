@@ -1,14 +1,14 @@
-import { LandmarksCollection } from "./LandmarksDataProvider.js"
-import { useLandmark } from "./Landmarks.js"
+import { useLandmark } from "./LandmarksDataProvider.js"
+import { Landmark } from "./Landmarks.js"
 
 export const LandmarkList = () => {
     const contentElement = document.querySelector(".landmarks");
-    const landmarks = LandmarksCollection()
+    const landmarks = useLandmark()
 
     let landmarkHTMLRepresentation = "";
     console.log("landmarks: ", landmarks)
     for (const lm of landmarks) {
-        landmarkHTMLRepresentation += useLandmark(lm)
+        landmarkHTMLRepresentation += Landmark(lm)
     }
 
     contentElement.innerHTML += `
