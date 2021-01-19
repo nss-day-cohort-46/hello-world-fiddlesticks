@@ -1,4 +1,4 @@
-export const cityCollection = [
+const cityCollection = [
     {
         name: "Schaan",
         population: 5748,
@@ -23,5 +23,8 @@ export const cityCollection = [
         description: "Village located in southern Liechtenstein.",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Wappen_Balzers.svg/800px-Wappen_Balzers.svg.png",
     }
+];
 
-]
+export const useCity = () => {
+    return cityCollection.slice();
+}
