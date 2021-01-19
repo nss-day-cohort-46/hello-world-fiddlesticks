@@ -6,7 +6,6 @@ export const LandmarkList = () => {
     const landmarks = useLandmark()
 
     let landmarkHTMLRepresentation = "";
-    console.log("landmarks: ", landmarks)
     for (const lm of landmarks) {
         landmarkHTMLRepresentation += Landmark(lm)
     }
