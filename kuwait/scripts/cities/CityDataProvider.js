@@ -18,13 +18,15 @@ const cityCollection = [
 export const largeCity = () => {
   // which city is bigger in population?
 
-  const largerCity = [];
+  return cityCollection.slice();
 
-  for (const cityObj of cityCollection) {
-    if (cityObj.population > 100000) {
-      largerCity.push(cityObj);
-    }
-  }
-  console.log("The larger city is Kuwait City", largerCity);
-  return largerCity;
+  // const largerCity = [];
+
+  // for (const cityObj of cityCollection) {
+  //   if (cityObj.population > 100000) {
+  //     largerCity.push(cityObj);
+  //   }
+  // }
+  // console.log("The larger city is Kuwait City", largerCity);
+  // return largerCity;
 };
