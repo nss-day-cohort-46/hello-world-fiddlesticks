@@ -1,4 +1,4 @@
-const LandmarksCollection = () => [
+const LandmarksCollection =  [
   {
     name: "Gutenburg Castle",
     type: "Structure - historical fortress.",
