@@ -1,4 +1,4 @@
-export const cityCollection = [
+const cityCollection = [
     {
         name: "Kuwait City",
         population: 4,000,000,
@@ -14,3 +14,16 @@ export const cityCollection = [
 
 ];
 
+export const largeCity = () => {
+// which city is bigger in population?
+
+    const largerCity = [];
+
+    for (const cityObj of cityCollection) {
+        if(cityObj.population > 100,000) {
+            largerCity.push(cityObj)
+        }
+    }
+    console.log("The larger city is Kuwait City", largerCity);
+    return largerCity;
+}
