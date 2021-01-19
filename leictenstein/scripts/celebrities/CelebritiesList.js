@@ -2,11 +2,11 @@ import { Celeberty } from "./Celebrity.js"
 import { useCeleberty } from "./CelebritiesDataProvider.js"
 
 export const CelebertyList = () => {
-    const contentElement = document.querySelector("people")
+    const contentElement = document.querySelector(".people")
     const celeberties = useCeleberty()
 
     let celebertiesHTMLRepresentation = ""
-    for (const celeb of celerties) {
+    for (const celeb of celeberties) {
         celebertiesHTMLRepresentation += Celeberty(celeb)
     }
 

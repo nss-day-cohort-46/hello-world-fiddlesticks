@@ -12,7 +12,7 @@ const celebrityCollection = [
         job: "Writer.",
         image: "https://www.euprizeliterature.eu/sites/default/files/styles/rectangular/public/Iren%20Nigg.jpg?itok=4EWjKWN4",
         alive: true
-    }.
+    },
     {
         name: "Stephanie Vogt",
         age: 30,
