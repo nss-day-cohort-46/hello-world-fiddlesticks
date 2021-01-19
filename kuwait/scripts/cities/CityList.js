@@ -13,7 +13,7 @@ export const CityList = () => {
   // Putting onto the dom
   contentElement.innerHTML += `
 
-      <div class="contentContainer__containerBottom-cityCard">
+      <div class="contentContainer__containerBottom">
       ${cityyyHTMLRepresentations}
 
       </div>
