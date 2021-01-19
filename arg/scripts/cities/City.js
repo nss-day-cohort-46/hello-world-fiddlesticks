@@ -3,9 +3,11 @@
 export const City = (theCity) => {
 
     return `
-    <p class="cityCard__name">${theCity.name}</p>
-    <p class="cityCard__population">${theCity.population}</p>
-    <p class="cityCard__description">${theCity.description}</p>
+    <li class=listElements>
+    ${theCity.name}<br>
+    Pop: ${theCity.population}<br>
+    Desc: ${theCity.description}
+    </li>
     `
 }
 

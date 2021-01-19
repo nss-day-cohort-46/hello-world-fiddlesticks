@@ -7,12 +7,12 @@ export const LandmarksCollection = [
     {
       name: "Iguazu Falls",
       type: "Nature"
-    }
+    },
 
     {
       name: "La Bombonera",
       type: "Sports"
-    }
+    },
 
     {
       name: "Patagonia",
@@ -24,6 +24,6 @@ export const LandmarksCollection = [
 
 //returns all landmarks
 export const useLandmarks = () => {
-    return landmarksCollection.slice()
+    return LandmarksCollection.slice()
 }
 

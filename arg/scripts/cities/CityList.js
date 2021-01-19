@@ -14,7 +14,7 @@ export const CityList = () => {
     const cities = useCity()
     let cityHTML = "<h2>Cities</h2><ul>"
     for (const x of cities){
-        cityHTML += "<li>"+ City(x)
+        cityHTML += City(x)
     }
 
     cityHTML += "</ul>"

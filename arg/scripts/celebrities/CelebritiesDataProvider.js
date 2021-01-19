@@ -1,19 +1,19 @@
-export const celebrityCollection = [
+export const celebritiesCollection = [
     {
         name: "Messi",
         age: 33,
         job: "Soccer Player",
         alive: true,
         image: ""
-    }
+    },
 
     {
         name: "Gabriela Sabatini",
         age: 50,
-        job: "Soccer Player",
+        job: "Tennis Player",
         alive: true,
         image: ""
-    }
+    },
 
     {
         name: "Evita",
