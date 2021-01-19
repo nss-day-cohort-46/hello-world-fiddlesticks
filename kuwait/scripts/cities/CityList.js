@@ -1,4 +1,4 @@
-import { City } from "./scripts/cities/City.js";
+import { City } from "./City.js";
 import { largeCity } from "./CityDataProvider.js";
 
 const buildCityListHTML = () => {};
@@ -8,3 +8,4 @@ export const CityList = () => {
 };
 
 City();
+largeCity();
