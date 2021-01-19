@@ -58,6 +58,7 @@ h6 {
   /* text-shadow: black; */
   text-shadow: gray 0 -2px;
 }
+
 .containerBottomArg {
   display: flex;
   /* border: 3px black solid; */
@@ -77,6 +78,10 @@ h6 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px;
+}
+
+.listElements {
+  margin: 5px;
 }
 
 .flagArg {
