@@ -5,7 +5,9 @@ const buildCityListHTML = () => {};
 
 export const CityList = () => {
   const contentElement = document.querySelector(".cityCard");
+
+  const cities = largeCity();
 };
 
-City();
-largeCity();
+// City();
+// largeCity();
