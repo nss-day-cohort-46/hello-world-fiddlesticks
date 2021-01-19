@@ -1,4 +1,4 @@
-export const LandmarksCollection = [
+export const LandmarksCollection = () => [
     {
       name: "Gutenburg Castle",
       type: "Structure - historical fortress.",
