@@ -29,4 +29,6 @@ export const largeCity = () => {
   // }
   // console.log("The larger city is Kuwait City", largerCity);
   // return largerCity;
+
+  console.log(cityCollection);
 };
