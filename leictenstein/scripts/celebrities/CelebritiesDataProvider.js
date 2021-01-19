@@ -1,4 +1,4 @@
-export const celebrityCollection = [
+const celebrityCollection = [
     {
         name: "Tina Weirather",
         age: 31,
@@ -29,3 +29,7 @@ export const celebrityCollection = [
     }
 
 ]
+
+export const useCeleberty = () => {
+    return celebrityCollection.slice()
+}
