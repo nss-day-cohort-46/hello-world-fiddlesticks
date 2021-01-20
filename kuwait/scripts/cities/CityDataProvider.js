@@ -15,6 +15,6 @@ const cityCollection = [
   },
 ];
 
-export const largeCity = () => {
+export const useCity = () => {
   return cityCollection.slice();
 };
