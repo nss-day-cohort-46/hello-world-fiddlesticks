@@ -10,3 +10,6 @@ CelebritiesList();
 
 import { LandmarksList } from "./scripts/landmarks/LandmarksList.js";
 LandmarksList();
+
+import { LinkList } from "../nav_bar/LinkList.js";
+LinkList();
