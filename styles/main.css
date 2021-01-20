@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
-@import "./KW.css";
+@import "./kw.css";
 
 /* * {
   border: 1px red solid;
@@ -91,7 +91,7 @@ header {
   padding: 10px;
   margin: 5px;
   background-color: lightblue;
-  opacity: .80;
+  opacity: 0.8;
   /* border: black 1px solid; */
   width: 300px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -117,7 +117,7 @@ footer {
   padding: 10px;
 }
 
-.header__nav:hover  {
+.header__nav:hover {
   background: green;
 }
 
@@ -136,7 +136,7 @@ footer {
   padding: 10px;
   margin: 10px auto;
   /* background-color: lightblue; */
-  background-color: rgb(124, 226, 146, .25);
+  background-color: rgb(124, 226, 146, 0.25);
   /* border: black 1px solid; */
   width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -158,7 +158,7 @@ footer {
   max-height: 20em; */
   text-align: center;
   padding: 1em;
-  border: .25em solid gray;
+  border: 0.25em solid gray;
   border-radius: 15px;
 
   height: 20em;
@@ -171,13 +171,13 @@ footer {
   top: -10px;
   left: -10px;
   opacity: 80%;
-  border: .3em solid black;
+  border: 0.3em solid black;
 }
 
 .countryList__card a {
   text-decoration: none;
   color: inherit;
-  background: rgb(124, 226, 146, .45);
+  background: rgb(124, 226, 146, 0.45);
   font-size: 2em;
   font-weight: bold;
 }
