@@ -1,10 +1,18 @@
 export const LandmarksCollection = [
   {
-    name: "landmark one",
-    type: "",
+    name: "Kuwait Towers",
+    type: "Tourism based",
   },
   {
-    name: "landmark two",
-    type: "",
+    name: "Grand Mosque",
+    type: "religious relevance",
+  },
+  {
+    name: "Holy Family Cathedral Parish",
+    type: "religious relevance",
   },
 ];
+//returns all landmarks
+export const useLandmarks = () => {
+  return LandmarksCollection.slice();
+};

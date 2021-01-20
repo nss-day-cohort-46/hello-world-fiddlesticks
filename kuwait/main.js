@@ -1,12 +1,12 @@
 console.log("hello world");
 
-import { City } from "./scripts/cities/City.js";
-const testCity = {
-  name: "Kuwait City",
-  population: 4000000,
-  description:
-    "83% of the total population resides in the capital, Kuwait City.",
-  image: "",
-};
+import { CityList } from "./scripts/cities/CityList.js";
 
-console.log("cityHTML", City(testCity));
+CityList();
+
+import { CelebritiesList } from "./scripts/celebrities/CelebritiesList.js";
+
+CelebritiesList();
+
+import { LandmarksList } from "./scripts/landmarks/LandmarksList.js";
+LandmarksList();

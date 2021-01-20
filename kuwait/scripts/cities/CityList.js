@@ -1,19 +1,19 @@
 import { City } from "./City.js";
 import { useCity } from "./CityDataProvider.js";
 
-
-
 export const CityList = () => {
-  const contentElement = document.querySelector(".cityCard");
+  const contentElement = document.querySelector(".containerBottomArg");
 
   const cities = useCity();
-  let cityHTML = 
+  console.log(cities);
+  let cityHTML = "<h2>Cities</h2>";
   for (const x of cities) {
-    cityHTML = City(x)
+    cityHTML += City(x);
   }
-  cityHTML += "</ul>"
+  cityHTML += "</ul>";
 
-    contentElement.innerHTML += cityHTML;
+  contentElement.innerHTML += cityHTML;
+  // console.log(cityHTML);
 };
 
 // City();
