@@ -11,12 +11,8 @@ export const LinkList = () => {
     }
 
     contentElement.innerHTML += `
-        <h3>Landmarks To See</h3>
-        <ul class="ulCard">
-            ${landmarkHTMLRepresentation}
-        </ul> 
-    
+        <div class="header__navItems">
+            ${linkskHTMLRepresentation}
+        </div>
     `
-
-    TODO: finish from line 13.
 };

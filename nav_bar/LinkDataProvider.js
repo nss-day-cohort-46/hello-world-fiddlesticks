@@ -21,6 +21,6 @@ const LinksCollection = [
     },
 ]
 
-export useLink = () => {
+export const useLink = () => {
     return LinksCollection.slice();
 }
